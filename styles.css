@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+ }
+
+ body {
+    background-color: #292929;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+ }
+ 
+   
+ header{
+    background: #03a9f4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+ }
+ aside{
+   margin-top: 30px;
+   text-align: center;
+   font-family:'Arial Narrow Bold';
+   padding: 0% 20px;
+   
+   
+ }
+ .menu {
+    width: 900px;
+    margin: 0 auto;
+ }
+ main{
+   margin: 50px;
+    padding: 8px;
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+ }
+ 
+
+ img {
+    
+    width: 120px; 
+    height: 120px; 
+    float: left;
+    padding: 8px ;
+}
+nav{
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+
+
+}
