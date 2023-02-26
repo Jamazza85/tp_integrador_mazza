@@ -31,25 +31,34 @@
         </header>
         <aside>
        
-            <button type="button" id="Modo_normal">Modo normal</button>
-            <button type="button" id="Modo_psicodelico">Modo Psicodelico</button>
+            <button class="button" type="button" id="Modo_normal"  >Modo normal</button>
+            <button class="button" type="button" id="Modo_psicodelico">Modo Psicodelico</button>
             <script src="function.js"></script>
+            
+            <p id="demo"></p>
+            <script>
+                const persona = '{"name":"Kenzi", "age":27, "city":"San Fernado"}';
+                const obj =JSON.parse(persona);
+                console.log(obj);
+
+                //document.getElementById("demo").innerHTML = "mombre: "+obj.name+"|edad: "+obj.age+"|ciudad: "+obj.city;
+                </script>
     
         </aside>
-        <main>
+        <main><div class="contenedor">
             <h1>Kenzi Larson</h1>
             <h2>software Developer</h2><br/>
             <a name="Datos"></a>
-             <section><h2>About Me</h2><br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quidem et rerum ex id
-                 recusandae nam soluta assumenda. Accusantium corporis porro temporibus sunt <br />libero illum officia 
-                 esse dolor quae.</p>
+             <section><h2>Acerca de mi</h2><br/>
+            <p>Mi Nombre es Kensi Larson, naci y estudie en la ciudaad de San Fernando, BsAs. Desde muy joven me interese por la tecnologia y la programacion, pero comence a capacitarme de manera
+                autodidacta hasta que di con Argentina programa y alli me dicuenta que era lo que realmente me gustaba.<br>
+                  Realice algunos pequeños trabajos, hasta que logre mi primer empleo IT; me gustan los desafios, y me desempeño bien trabajando en equipo y suelo aportar toda mi capacidad e interes.</p>
             </section><br/>
             <section><a name="Trabajos"></a>
                 <h2>Experiencia Laboral</h2><br/>
                 <article>
-                <h3>Job Position</h3><br/>
-                <H4>Compañia / Ubicacion / Año</H4>
+                <h3>Diseñadora pagina web</h3><br/>
+                <H4>Super Mercado Dia / San Fernando / 2019</H4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis provident possimus et 
                     architecto vel, doloremque laborum reprehenderit culpa nam vero enim quis error? <br /> Nihil 
                     doloremque, cumque ea quia ex architecto!</p><br/>
@@ -58,8 +67,8 @@
                 </article>
                 <article>
                     
-                    <h3>Job Position</h3><br/>
-                    <H4>Compañia / Ubicacion / Año</H4>
+                    <h3>Data Analist<h3><br/>
+                    <H4>UBER / CABA / 2020</H4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis provident possimus et 
                         architecto vel, doloremque laborum reprehenderit culpa nam vero enim quis error? <br /> Nihil 
                         doloremque, cumque ea quia ex architecto!</p>
@@ -68,8 +77,8 @@
                     </article>
                     <br/>
                     <article>
-                        <h3>Job Position</h3>
-                        <H4>Compañia / Ubicacion / Año</H4>
+                        <h3>Help desk</h3><br>
+                        <H4>Flow / cablevision / San Fernando / 2021</H4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis provident possimus et 
                             architecto vel, doloremque laborum reprehenderit culpa nam vero enim quis error? <br /> Nihil 
                             doloremque, cumque ea quia ex architecto!</p>
@@ -79,11 +88,9 @@
                         <article>
                             <a name="Educacion"></a>
                             <br/>
-                            <h3>Education</h3>
-                            <H4>school/ Ubicacion / Año</H4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis provident possimus et 
-                                architecto vel, doloremque laborum reprehenderit culpa nam vero enim quis error? <br /> Nihil 
-                                doloremque, cumque ea quia ex architecto!</p>
+                            <h3>Educacion</h3>
+                            <H4>Ticmas/ Caba / 2023</H4><br>
+                            <p>Curso inicial de programacion Front end</p>
                                 <br/>
                             
                             
@@ -91,8 +98,8 @@
                             <article>
                                 <a name="Skills"></a>
                                 <br/>
-                                <h3>Skills</h3>
-                                <H4>Html c# css java</H4>
+                                <h3>Skills</h3><br>
+                                <H4>Html c# css java</H4><br>
                                 <p>Desarrollo de paginas web con css y js, creacion de aplicaciones en c# y .net</p>
                                 
                                 
@@ -101,11 +108,12 @@
                             <article>
                                 <a name="Redes"></a>
                                 <br/>
-                                <h3>Redes</h3>
-                                <H4>Facebook</H4>
-                                <H4>Twiteer</H4>
-                                <H4>Instagram</H4>
-                                <H4>Linkedinn</H4>
+                                <h3>Redes y contactos</h3><br>
+                                <h5>Facebook/kenzi_larson</h5>
+                                <h5>Twiteer</h5>
+                                <h5>Instagram</h5>
+                                <h5>www.Linkedinn.comm/kenzi_larson</h5>
+                                <h5>Celular: 113123455</h5>
                                 
                                 
                                 
@@ -113,7 +121,7 @@
     
     
         </section>
-            
+            </div>
         </main>
 </body>
 </html>
